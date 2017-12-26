@@ -1,11 +1,12 @@
-#-*- coding: utf-8 -*-
-'''
+# coding: utf-8
+"""
 Created on 2016年10月7日
 
 @author: 武明辉
-'''
+"""
+
 from Field import IntegerField, StringField
-import Model
+from Model import Model
 
 
 class User(Model):
